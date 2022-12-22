@@ -1,0 +1,16 @@
+{
+  // For more information, visit: https://go.microsoft.com/fwlink/?LinkId=733558
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Installing Php Extensions and dependencies...",
+      "type": "shell",
+      "command": "code-server --install-extension cweijan.vscode-mysql-client2 --install-extension bmewburn.vscode-intelephense-client",
+      "presentation": {
+        "reveal": "always",
+        "panel": "new"
+      },
+      "runOptions": { "runOn": "folderOpen" }
+    }
+  ]
+}
