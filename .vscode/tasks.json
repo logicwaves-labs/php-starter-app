@@ -11,6 +11,16 @@
         "panel": "new"
       },
       "runOptions": { "runOn": "folderOpen" }
+    },
+    {
+      "label": "Running your app...",
+      "type": "shell",
+      "command": "php -S localhost:8000",
+      "presentation": {
+        "reveal": "always",
+        "panel": "new"
+      },
+      "runOptions": { "runOn": "folderOpen" }
     }
   ]
 }
