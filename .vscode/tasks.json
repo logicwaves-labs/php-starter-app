@@ -15,7 +15,7 @@
     {
       "label": "Running your app...",
       "type": "shell",
-      "command": "php -S localhost:8000",
+      "command": "php -S localhost:8000 -t ./*/",
       "presentation": {
         "reveal": "always",
         "panel": "new"
