@@ -5,7 +5,7 @@
     {
       "label": "Installing Php Extensions and dependencies...",
       "type": "shell",
-      "command": "code-server --install-extension cweijan.vscode-mysql-client2 --install-extension bmewburn.vscode-intelephense-client --install-extension devsense.phptools-vscode",
+      "command": "code-server --install-extension cweijan.vscode-mysql-client2 --install-extension bmewburn.vscode-intelephense-client --install-extension devsense.phptools-vscode --install-extension rangav.vscode-thunder-client",
       "presentation": {
         "reveal": "always",
         "panel": "new"
